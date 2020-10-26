@@ -23,7 +23,7 @@ $(document).ready(function() {
     });
     
     
-    /* Navigation scroll 
+    /* Navigation scroll */
     $(function() {
       $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -40,7 +40,7 @@ $(document).ready(function() {
     });
     
     
-    /* Animations on scroll 
+    /* Animations on scroll */
     $('.js--wp-1').waypoint(function(direction) {
         $('.js--wp-1').addClass('animated fadeIn');
     }, {
@@ -66,7 +66,7 @@ $(document).ready(function() {
     });
     
     
-    /* Mobile navigation 
+    /* Mobile navigation */
     $('.js--nav-icon').click(function() {
         var nav = $('.js--main-nav');
         var icon = $('.js--nav-icon i');
